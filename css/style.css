@@ -13,7 +13,7 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #b4a7a7;
+    color: #F4D1E1;
 }
 
 a {
@@ -54,7 +54,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    background: #b4a7a7;
+    background: #F4D1E1;
 }
 
 .back-to-top:hover i {
@@ -62,7 +62,7 @@ a:focus {
 }
 
 .back-to-top i {
-    color: #b4a7a7;
+    color: #F4D1E1;
     padding-top: 10px;
 }
 
@@ -73,7 +73,7 @@ a:focus {
 .top-bar {
     position: relative;
     height: 60px;
-    background: #b4a7a7;
+    background: #F4D1E1;
 }
 
 .top-bar .top-bar-left {
@@ -112,7 +112,7 @@ a:focus {
 }
 
 .top-bar .text p {
-    color: #eeeeee;
+    color: #941189;
     font-size: 16px;
     font-weight: 400;
     margin: 0;
@@ -144,7 +144,7 @@ a:focus {
     width: 60px;
     height: 100%;
     font-size: 22px;
-    color: #ffffff;
+    color: #941189;
     border-right: 1px solid rgba(255, 255, 255, .15);
 }
 
@@ -152,9 +152,10 @@ a:focus {
     border-left: 1px solid rgba(255, 255, 255, .15);
 }
 
+
 .top-bar .social a:hover {
-    color: #ffffff;
-    background: #ffffff;
+    opacity: 0.7;
+    background: rgba(255, 255, 255, 0.7);
 }
 
 @media (min-width: 992px) {
@@ -182,7 +183,7 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 0;
-    color: #ffffff;
+    color: #85516A;
     font-size: 45px;
     line-height: 0px;
     font-weight: 600;
@@ -202,12 +203,12 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
-    color: #ffffff;
+    color: #941189;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    background: rgba(256, 256, 256, .1);
+    background: rgba(131, 91, 91, 0.3);
     transition: none;
 }
 
@@ -230,12 +231,12 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #b4a7a7 !important;
+        background: #F4D1E1 !important;
     }
     
     .navbar a.nav-link {
         padding: 8px 15px;
-        font-size: 14px;
+        font-size: 16px;
         letter-spacing: 1px;
         text-transform: uppercase;
     }
@@ -244,7 +245,7 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #b4a7a7 !important;
+        background: #F4D1E1 !important;
     }
     
     .navbar a.nav-link {
@@ -294,14 +295,14 @@ a:focus {
 }
 
 .hero .hero-text h1 {
-    color: #b4a7a7;
+    color: #F4D1E1;
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .hero .hero-text p {
-    color: #b4a7a7;
+    color: #F4D1E1;
     font-size: 18px;
     margin-bottom: 25px;
 }
@@ -311,16 +312,16 @@ a:focus {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #b4a7a7;
+    color: #F4D1E1;
     background: none;
-    border: 2px solid #b4a7a7;
+    border: 2px solid #F4D1E1;
     border-radius: 0;
     transition: .3s;
 }
 
 .hero .hero-text .btn:hover {
     color: #ffffff;
-    background: #b4a7a7;
+    background: #F4D1E1;
 }
 
 .hero .btn-play {
@@ -349,7 +350,7 @@ a:focus {
     display: block;
     width: 80px;
     height: 80px;
-    background: #b4a7a7;
+    background: #F4D1E1;
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -364,13 +365,13 @@ a:focus {
     display: block;
     width: 80px;
     height: 80px;
-    background: #b4a7a7;
+    background: #F4D1E1;
     border-radius: 50%;
     transition: all 200ms;
 }
 
 .hero .btn-play:hover:after {
-    background-color: darken(#b4a7a7, 10%);
+    background-color: darken(#F4D1E1, 10%);
 }
 
 .hero .btn-play img {
@@ -495,7 +496,7 @@ a:focus {
 
 .page-header h2 {
     position: relative;
-    color: #b4a7a7;
+    color: #F4D1E1;
     font-size: 60px;
     font-weight: 700;    
 }
@@ -504,7 +505,7 @@ a:focus {
     position: relative;
     padding: 0 12px;
     font-size: 22px;
-    color: #b4a7a7;
+    color: #F4D1E1;
 }
 
 .page-header a:hover {
@@ -519,7 +520,7 @@ a:focus {
     top: -2px;
     right: -7px;
     text-align: center;
-    color: #b4a7a7;
+    color: #F4D1E1;
 }
 
 .page-header a:last-child::after {
@@ -603,7 +604,7 @@ a:focus {
     right: 60px;
     bottom: 60px;
     left: -60px;
-    background: #b4a7a7;
+    background: #F4D1E1;
     z-index: 0;
 }
 
@@ -630,8 +631,8 @@ a:focus {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #b4a7a7;
-    border: 2px solid #b4a7a7;
+    color: #F4D1E1;
+    border: 2px solid #F4D1E1;
     border-radius: 0;
     background: none;
     transition: .3s;
@@ -639,7 +640,7 @@ a:focus {
 
 .about .about-text a.btn:hover {
     color: #ffffff;
-    background: #b4a7a7;
+    background: #F4D1E1;
 }
 
 @media (max-width: 767.98px) {
@@ -710,8 +711,8 @@ a:focus {
     padding: 10px 20px;
     font-size: 14px;
     font-weight: 600;
-    color: #b4a7a7;
-    border: 2px solid #b4a7a7;
+    color: #F4D1E1;
+    border: 2px solid #F4D1E1;
     border-radius: 0;
     background: none;
     transition: .3s;
@@ -719,8 +720,8 @@ a:focus {
 
 .service .service-item:hover a.btn {
     color: #ffffff;
-    background: #b4a7a7;
-    border-color: #b4a7a7;
+    background: #F4D1E1;
+    border-color: #F4D1E1;
 }
 
 
@@ -929,7 +930,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    background: #b4a7a7;
+    background: #F4D1E1;
     font-size: 22px;
     transition: .3s;
 }
@@ -940,7 +941,7 @@ a:focus {
 
 .testimonial .owl-nav .owl-prev:hover,
 .testimonial .owl-nav .owl-next:hover {
-    color: #b4a7a7;
+    color: #F4D1E1;
     background: #ffffff;
 }
 
@@ -1034,7 +1035,7 @@ a:focus {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #b4a7a7;
+    color: #F4D1E1;
     transition: .3s;
 }
 
@@ -1061,27 +1062,27 @@ a:focus {
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    background: #b4a7a7;
+    background: #F4D1E1;
     font-size: 22px;
     transition: .3s;
 }
 
 .blog .owl-nav .owl-prev:hover,
 .blog .owl-nav .owl-next:hover {
-    color: #b4a7a7;
+    color: #F4D1E1;
     background: #ffffff;
 }
 
 .blog .pagination .page-link {
-    color: #b4a7a7;
+    color: #F4D1E1;
     border-radius: 0;
-    border-color: #b4a7a7;
+    border-color: #F4D1E1;
 }
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
     color: #ffffff;
-    background: #b4a7a7;
+    background: #F4D1E1;
 }
 
 .blog .pagination .disabled .page-link {
@@ -1111,18 +1112,18 @@ a:focus {
     display: inline-block;
     margin: 5px;
     padding: 8px 15px;
-    color: #b4a7a7;
+    color: #F4D1E1;
     font-size: 14px;
     font-weight: 600;
     border-radius: 0;
     background: none;
-    border: 2px solid #b4a7a7;
+    border: 2px solid #F4D1E1;
     transition: .3s;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #b4a7a7;
+    background: #F4D1E1;
     color: #ffffff;
 }
 
@@ -1174,7 +1175,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #b4a7a7;
+    background: #F4D1E1;
 }
 
 .contact .container-fluid {
@@ -1185,7 +1186,7 @@ a:focus {
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #b4a7a7;
+    background: #F4D1E1;
 }
 
 .contact .contact-form input {
@@ -1218,7 +1219,7 @@ a:focus {
 }
 
 .contact .contact-form .btn:hover {
-    color: #b4a7a7;
+    color: #F4D1E1;
     background: #ffffff;
 }
 
@@ -1288,7 +1289,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: #b4a7a7;
+    background: #F4D1E1;
 }
 
 .footer .footer-contact,
@@ -1363,7 +1364,7 @@ a:focus {
 
 .footer .footer-newsletter input {
     height: 60px;
-    border: 2px solid #b4a7a7;
+    border: 2px solid #F4D1E1;
     border-radius: 0;
 }
 
@@ -1375,16 +1376,16 @@ a:focus {
     padding: 8px 20px;
     font-size: 14px;
     font-weight: 600;
-    color: #b4a7a7;
+    color: #F4D1E1;
     background: none;
     border-radius: 0;
-    border: 2px solid #b4a7a7;
+    border: 2px solid #F4D1E1;
     transition: .3s;
 }
 
 .footer .footer-newsletter .btn:hover {
     color: #ffffff;
-    background: #b4a7a7;
+    background: #F4D1E1;
 }
 
 .footer .copyright {
@@ -1407,7 +1408,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #b4a7a7;
+    color: #F4D1E1;
     font-weight: 700;
 }
 
