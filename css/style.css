@@ -910,7 +910,7 @@ a:focus {
 }
 
 .testimonial .testimonial-item h3 {
-    color: #999999;
+    color: #941189;
     font-size: 16px;
     font-weight: 300;
     margin: 0;
@@ -1086,7 +1086,7 @@ a:focus {
 }
 
 .blog .pagination .disabled .page-link {
-    color: #999999;
+    color: #941189;
 }
 
 
@@ -1297,7 +1297,7 @@ a:focus {
 .footer .footer-newsletter {
     position: relative;
     margin-bottom: 45px;
-    color: #999999;
+    color: #941189;
 }
 
 .footer .footer-contact h2,
@@ -1307,13 +1307,13 @@ a:focus {
     margin-bottom: 30px;
     font-size: 22px;
     font-weight: 700;
-    color: #ffffff;
+    color: #454545;
 }
 
 .footer .footer-link a {
     display: block;
     margin-bottom: 10px;
-    color: #999999;
+    color: #941189;
     transition: .3s;
 }
 
@@ -1330,7 +1330,7 @@ a:focus {
     letter-spacing: 1px;
 }
 
-.footer .footer-contact p i {
+.footer .footer-contact p i {    
     width: 25px;
 }
 
@@ -1354,7 +1354,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #999999;
+    color: #941189;
 }
 
 .footer .footer-newsletter .form {
@@ -1393,7 +1393,7 @@ a:focus {
 }
 
 .footer .copyright .row {
-    background: #ffffff;
+    /*background: #ffffff;*/
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -1408,7 +1408,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #F4D1E1;
+    /*color: #F4D1E1;*/
     font-weight: 700;
 }
 
