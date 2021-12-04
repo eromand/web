@@ -158,7 +158,7 @@ a:focus {
     background: rgba(255, 255, 255, 0.7);
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1320px) {
     .top-bar {
         padding: 0 60px;
     }
@@ -184,7 +184,7 @@ a:focus {
 .navbar .navbar-brand {
     margin: 0;
     color: #85516A;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 0px;
     font-weight: 600;
 }
@@ -219,7 +219,7 @@ a:focus {
     background: #f8f9fa;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1320px) {
     .navbar {
         position: absolute;
         width: 100%;
@@ -242,7 +242,7 @@ a:focus {
     }
 }
 
-@media (max-width: 991.98px) {   
+@media (max-width: 1320px) {   
     .navbar {
         padding: 15px;
         background: #d6d0d3 !important;
@@ -426,7 +426,7 @@ a:focus {
     opacity: 1;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1320px) {
     .hero .hero-text {
         padding-left: 15px;
     }
