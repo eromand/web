@@ -560,6 +560,7 @@ a:focus {
     position: relative;
     font-size: 50px;
     font-weight: 700;
+    margin-top: 50px;
 }
 
 @media (max-width: 767.98px) {
