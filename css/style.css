@@ -2,7 +2,7 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #b3aaaa;
+    color: #454545;
     background: #ffffff;
     font-family: 'Open Sans', sans-serif;
 }
@@ -13,7 +13,7 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #d6d0d3;
+    color: #454545;
 }
 
 a {
@@ -657,8 +657,7 @@ a:focus {
 /*******************************/
 .service {
     position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
+    width: 100%;    
 }
 
 .service .service-item {
@@ -671,7 +670,7 @@ a:focus {
 
 .service .service-img {
     position: relative;
-    width: 100%;
+    width: 100%;    
 }
 
 .service .service-img img {
@@ -1175,19 +1174,11 @@ a:focus {
 .contact {
     position: relative;
     width: 100%;
-    margin: 45px 0;
-    background: #d6d0d3;
-}
-
-.contact .container-fluid {
-    background: url(../img/contact.jpg) left center no-repeat;
-    background-size: contain;
+    margin: 45px 0;    
 }
 
 .contact .contact-form {
-    position: relative;
-    padding: 90px 0 90px 45px;
-    background: #d6d0d3;
+    position: relative;        
 }
 
 .contact .contact-form input {
@@ -1195,7 +1186,7 @@ a:focus {
     background: none;
     border-radius: 0;
     border: none;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #454545;
 }
 
 .contact .contact-form textarea {
@@ -1204,7 +1195,7 @@ a:focus {
     background: none;
     border-radius: 0;
     border: none;
-    border-bottom: 1px solid #ffffff;;
+    border-bottom: 1px solid #454545;;
 }
 
 .contact .contact-form .btn {
@@ -1212,16 +1203,16 @@ a:focus {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #ffffff;
+    color: #454545;
     background: none;
-    border: 2px solid #ffffff;
+    border: 2px solid #454545;
     border-radius: 0;
     transition: .3s;
 }
 
 .contact .contact-form .btn:hover {
     color: #d6d0d3;
-    background: #ffffff;
+    background: #454545;
 }
 
 .contact .help-block ul {
