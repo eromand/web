@@ -1174,7 +1174,7 @@ a:focus {
 .contact {
     position: relative;
     width: 100%;
-    margin: 45px 0;    
+    margin: 45px 0;        
 }
 
 .contact .contact-form {
@@ -1223,7 +1223,7 @@ a:focus {
 
 @media (max-width: 767.98px) {
     .contact .container-fluid {
-        background: none;
+        background: none;        
     }
     
     .contact .contact-form {
