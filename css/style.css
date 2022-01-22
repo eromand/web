@@ -767,8 +767,7 @@ a:focus {
     right: 10px;
     bottom: 10px;
     left: 10px;
-    background: transparent;
-    border: 1px solid #ffffff;
+    background: transparent;    
     z-index: 1;
 }
 
