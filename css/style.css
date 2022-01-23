@@ -752,8 +752,8 @@ a:focus {
 }
 
 .price .price-img {
-    position: relative;
-    width: 100px;
+    position: relative;    
+    margin-bottom: 10%;
 }
 
 .price .price-img img {
@@ -774,7 +774,7 @@ a:focus {
 .price .price-text {
     position: relative;
     padding: 0 15px;
-    width: calc(100% - 100px);
+    width: 100%;
     overflow: hidden;
 }
 
