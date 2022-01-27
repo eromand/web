@@ -725,6 +725,10 @@ a:focus {
     border-color: #d6d0d3;
 }
 
+.service-img:hover {
+    transition: filter .6s, opacity .6s, transform .6s, box-shadow .3s;
+    transform: scale(1.1);
+}
 
 /*******************************/
 /********* Pricing CSS *********/
