@@ -220,6 +220,23 @@ a:focus {
     background: #f8f9fa;
 }
 
+/* Change color of dropdown links on hover */
+.dropdown-menu a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus {
+	background-image: none;
+	background-color: #9fdfbf;
+}
+
 @media (min-width: 1320px) {
     .navbar {
         position: absolute;
