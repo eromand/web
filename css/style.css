@@ -972,7 +972,7 @@ a:focus {
 
 .blog .blog-carousel {
     position: relative;
-    width: calc(100% + 230px);
+    width: calc(100% + 30px);
     left: -15px;
     right: -15px;
 }
