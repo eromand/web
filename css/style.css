@@ -561,7 +561,7 @@ a:focus {
 /*******************************/
 .section-header {
     position: relative;
-    max-width: 600px;
+    max-width: 750px;
     margin: 0 auto;
     margin-bottom: 45px;
 }
@@ -972,7 +972,7 @@ a:focus {
 
 .blog .blog-carousel {
     position: relative;
-    width: calc(100% + 30px);
+    width: calc(100% + 230px);
     left: -15px;
     right: -15px;
 }
@@ -1257,8 +1257,7 @@ a:focus {
 /*******************************/
 .single {
     position: relative;
-    width: 100%;
-    padding: 45px 0 65px 0;
+    width: 100%;    
 }
 
 .single img {
