@@ -727,8 +727,7 @@ a:focus {
 .service .service-item a.btn {
     position: relative;
     margin-bottom: 30px;
-    padding: 10px 20px;
-    font-size: 14px;
+    padding: 10px 20px;    
     font-weight: 600;
     color: #454545;
     border: 2px solid #d6d0d3;
