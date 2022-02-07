@@ -689,6 +689,7 @@ a:focus {
 .service .service-img {
     position: relative;
     width: 100%;    
+    margin-top: 5%;
 }
 
 .service .service-img img {
@@ -752,8 +753,7 @@ a:focus {
 /*******************************/
 .price {
     position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
+    width: 100%;    
 }
 
 .price .price-item {
