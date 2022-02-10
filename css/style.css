@@ -1,10 +1,16 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+@font-face {
+	font-family: 'Abel-Regular';
+	src: url('./fonts/Abel-Regular.ttf');	
+}
+
 body {
     color: #454545;
     background: #ffffff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Abel-Regular' !important;
+    font-weight: 600 !important;
 }
 
 h1,
@@ -1282,8 +1288,8 @@ a:focus {
 .single .ul-group li::before {
     position: relative;
     content: "\f0da";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-family: 'Abel-Regular';
+    font-weight: 600;
     margin-right: 10px;
 }
 
@@ -1331,8 +1337,8 @@ a:focus {
 .footer .footer-link a::before {
     position: relative;
     content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-family: 'Abel-Regular';
+    font-weight: 600;
     margin-right: 10px;
 }
 
