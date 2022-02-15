@@ -120,7 +120,7 @@ a:focus {
 
 .top-bar .text p {
     color: #85516A;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     margin: 0;
 }
@@ -260,7 +260,7 @@ a:focus {
     
     .navbar a.nav-link {
         padding: 8px 15px;
-        font-size: 16px;
+        font-size: 20px;
         letter-spacing: 1px;
         text-transform: uppercase;
     }
