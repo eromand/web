@@ -171,6 +171,17 @@ a:focus {
     }
 }
 
+@media (max-width: 1320px) {
+    .top-bar .text p {
+        font-size: 16px !important;
+    }    
+}   
+
+@media (max-width: 992px) {
+    .top-bar .text p {
+        font-size: 14px !important;
+    }    
+} 
 
 /**********************************/
 /*********** Nav Bar CSS **********/
@@ -262,7 +273,14 @@ a:focus {
         padding: 8px 15px;
         font-size: 20px;
         letter-spacing: 1px;
-        text-transform: uppercase;
+        text-transform: uppercase !important;
+    }
+
+    .dropdown-item {
+        font-size: 20px !important;
+        color: #85516A !important;
+        font-weight: bold !important;
+        text-transform: uppercase !important;
     }
 }
 
@@ -275,13 +293,32 @@ a:focus {
     .navbar a.nav-link {
         padding: 5px;
         font-size: 17px;
-        text-transform: uppercase;
+        text-transform: uppercase !important;
     }
     
     .navbar .dropdown-menu {
         box-shadow: none;
     }
+
+    .dropdown-item {
+        font-size: 16px !important;
+        color: #85516A !important;
+        font-weight: bold !important;
+        text-transform: uppercase !important;
+    }
 }
+
+@media (max-width: 991px) {
+    .navbar .dropdown-menu {
+        background: #d6d0d3 !important;
+    }
+    .dropdown-item {
+        font-size: 16px !important;
+        color: #85516A !important;
+        font-weight: bold !important;
+        text-transform: uppercase !important;
+    }
+}   
 
 
 /*******************************/
