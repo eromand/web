@@ -274,6 +274,8 @@ a:focus {
     
     .navbar a.nav-link {
         padding: 5px;
+        font-size: 17px;
+        text-transform: uppercase;
     }
     
     .navbar .dropdown-menu {
