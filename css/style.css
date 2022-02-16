@@ -787,6 +787,22 @@ a:focus {
     border-color: #d6d0d3;
 }
 
+.service-detail-link:hover {
+    transition: filter .6s, opacity .6s, transform .6s, box-shadow .3s;
+    transform: scale(1.1);
+}
+
+.service-detail-back:hover a {     
+    color: #8d8989 !important;
+    text-underline-position: under;
+    text-decoration: underline;
+}
+
+.service-detail-text p {
+    margin-top: 4%;
+    font-size: 20px;
+}
+
 /*******************************/
 /********* Pricing CSS *********/
 /*******************************/
