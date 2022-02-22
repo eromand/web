@@ -97,7 +97,7 @@ a:focus {
 
 .top-bar .text {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     height: 60px;
