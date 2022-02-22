@@ -33,11 +33,9 @@
                     $('.dropdown-toggle', this).trigger('click');
                 }).on('mouseout', function () {
                     $('.dropdown-toggle', this).trigger('click').blur();
-                });
-                $('.navbar').removeClass('nav-sticky');
+                });                
             } else {
-                $('.navbar .dropdown').off('mouseover').off('mouseout');
-                $('.navbar').addClass('nav-sticky');
+                $('.navbar .dropdown').off('mouseover').off('mouseout');                
             }
         }
         toggleNavbarMethod();
