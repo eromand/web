@@ -283,6 +283,14 @@ a:focus {
         font-weight: bold !important;
         text-transform: uppercase !important;
     }
+
+    .navbar .navbar-brand {
+        margin: 0;
+        color: #85516A;
+        font-size: 30px;
+        line-height: 0px;
+        font-weight: 600;
+    }
 }
 
 @media (max-width: 1320px) {   
@@ -309,6 +317,14 @@ a:focus {
         font-weight: bold !important;
         text-transform: uppercase !important;
     }
+
+    .navbar .navbar-brand {
+        margin: 0;
+        color: #85516A;
+        font-size: 24px;
+        line-height: 0px;
+        font-weight: 600;
+    }
 }
 
 @media (max-width: 991px) {
@@ -317,10 +333,25 @@ a:focus {
         padding-top: 0px !important;
         padding-bottom: 0px !important;
     }
+    
     .dropdown-item {
         font-size: 16px !important;
         color: #85516A !important;
         font-weight: bold !important;
+        text-transform: uppercase !important;
+    }
+
+    .navbar .navbar-brand {
+        margin: 0;
+        color: #85516A;
+        font-size: 30px;
+        line-height: 0px;
+        font-weight: 600;
+    }
+
+    .navbar a.nav-link {
+        padding: 5px;
+        font-size: 24px;
         text-transform: uppercase !important;
     }
 }   
@@ -803,6 +834,20 @@ a:focus {
 
 .service-detail-text p {    
     font-size: 20px;
+}
+
+@media (max-width: 992px) {
+    .service .service-item h3 {
+        font-size: 35px;
+    }
+
+    .service-detail-text p {    
+        font-size: 35px;
+    }
+
+    .service-detail-back {     
+        font-size: 35px;
+    }
 }
 
 /*******************************/
