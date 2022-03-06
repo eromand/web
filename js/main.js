@@ -27,6 +27,12 @@
     
     // Dropdown on mouse hover
     $(document).ready(function () {
+
+        //
+        if ($(window).width() < 992) {
+            $('.navbar').addClass('nav-sticky');
+        }
+
         function toggleNavbarMethod() {
             if ($(window).width() > 992) {
                 $('.navbar .dropdown').on('mouseover', function () {
