@@ -1453,6 +1453,14 @@ a:focus {
     width: 25px;
 }
 
+.footer-contact h5 {
+    font-size: 22px;
+}
+
+.footer-contact p a {
+    font-size: 22px;
+}
+
 .footer .footer-social {
     position: relative;
     margin-top: 20px;
