@@ -793,14 +793,14 @@ a:focus {
 .service .service-item h3 {
     margin: 0;
     padding: 25px 15px 15px 15px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
 }
 
 .service .service-item p {
     margin: 0;
     padding: 0 25px 25px 25px;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .service .service-item a.btn {
