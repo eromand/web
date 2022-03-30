@@ -254,6 +254,11 @@ a:focus {
 	background-color: #9fdfbf;
 }
 
+.navbar-toggler {
+    background-color: #454545;
+    border: 1px solid #454545;
+}
+
 @media (min-width: 1320px) {
     .navbar {
         position: absolute;
@@ -659,13 +664,6 @@ a:focus {
     font-size: 50px;
     font-weight: 700;
 }
-
-@media (max-width: 767.98px) {
-    .section-header h2 {
-        font-size: 30px;
-    }
-}
-
 
 /*******************************/
 /********** About CSS **********/
