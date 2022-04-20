@@ -752,7 +752,7 @@ a:focus {
 /*******************************/
 .service {
     position: relative;
-    width: 100%;    
+    width: 100%;
 }
 
 .service .service-item {
@@ -831,7 +831,7 @@ a:focus {
 }
 
 .service-detail-text p {    
-    font-size: 20px;
+    font-size: 24px;
 }
 
 @media (max-width: 992px) {
